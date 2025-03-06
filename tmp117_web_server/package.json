@@ -1,13 +1,13 @@
 {
     "urls": [
-        ["../tmp117_server_ap.py", "github:sparkfun/tmp117_web_server/tmp117_server_ap.py"],
-        ["microdot/__init__.py", "github:sparkfun/tmp117_web_server/microdot/__init__.py"],
-        ["microdot/helpers.py", "github:sparkfun/tmp117_web_server/microdot/helpers.py"],
-        ["microdot/microdot.py", "github:sparkfun/tmp117_web_server/microdot/microdot.py"],
-        ["microdot/websocket.py", "github:sparkfun/tmp117_web_server/microdot/websocket.py"],
-        ["../static/index.css", "github:sparkfun/tmp117_web_server/static/index.css"],
-        ["../static/index.html", "github:sparkfun/tmp117_web_server/static/index.html"],
-        ["../static/logo.png", "github:sparkfun/tmp117_web_server/static/logo.png"]
+        ["../tmp117_server_ap.py", "github:gigapod/tmp117_web_server/tmp117_server_ap.py"],
+        ["microdot/__init__.py", "github:gigapod/tmp117_web_server/microdot/__init__.py"],
+        ["microdot/helpers.py", "github:gigapod/tmp117_web_server/microdot/helpers.py"],
+        ["microdot/microdot.py", "github:gigapod/tmp117_web_server/microdot/microdot.py"],
+        ["microdot/websocket.py", "github:gigapod/tmp117_web_server/microdot/websocket.py"],
+        ["../static/index.css", "github:gigapod/tmp117_web_server/static/index.css"],
+        ["../static/index.html", "github:gigapod/tmp117_web_server/static/index.html"],
+        ["../static/logo.png", "github:gigapod/tmp117_web_server/static/logo.png"]
     ],
     "deps": [
       ["github:sparkfun/Qwiic_I2C_Py", "feature/packaging"],
