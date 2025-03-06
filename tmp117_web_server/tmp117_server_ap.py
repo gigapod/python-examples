@@ -8,7 +8,7 @@ import time
 # defines
 kDoAlerts = True # Set to False to disable checking alerts. This will speed up temperature reads.
 kApSsid = "iot_redboard_tmp117"
-kApPass = "thermo_wave2"
+kApPass = "sparkfun"
 
 # fahrenheit to celcius
 def f_to_c(degreesF):
@@ -21,7 +21,7 @@ def c_to_f(degreesC):
 print("Formatting WIFI")
 ap = network.WLAN(network.AP_IF)
 ap.active(True)
-ap.config(essid=kApSsid, authmode=network.AUTH_WPA_WPA2_PSK, password=kApPass)
+ap.config(essid=kApSsid,  password=kApPass)
 
 while ap.active() == False:
     pass
