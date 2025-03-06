@@ -1,17 +1,47 @@
 {
     "urls": [
-        ["../tmp117_server_ap.py", "github:gigapod/python-examples/tmp117_web_server/tmp117_server_ap.py"],
-        ["microdot/__init__.py", "github:gigapod/python-examples/tmp117_web_server/microdot/__init__.py"],
-        ["microdot/helpers.py", "github:gigapod/python-examples/tmp117_web_server/microdot/helpers.py"],
-        ["microdot/microdot.py", "github:gigapod/python-examples/tmp117_web_server/microdot/microdot.py"],
-        ["microdot/websocket.py", "github:gigapod/python-examples/tmp117_web_server/microdot/websocket.py"],
-        ["../static/index.css", "github:gigapod/python-examples/tmp117_web_server/static/index.css"],
-        ["../static/index.html", "github:gigapod/python-examples/tmp117_web_server/static/index.html"],
-        ["../static/logo.png", "github:gigapod/python-examples/tmp117_web_server/static/logo.png"]
+        [
+            "../tmp117_server_ap.py",
+            "github:gigapod/python-examples/tmp117_web_server/tmp117_server_ap.py"
+        ],
+        [
+            "microdot/__init__.py",
+            "github:gigapod/python-examples/tmp117_web_server/microdot/__init__.py"
+        ],
+        [
+            "microdot/helpers.py",
+            "github:gigapod/python-examples/tmp117_web_server/microdot/helpers.py"
+        ],
+        [
+            "microdot/microdot.py",
+            "github:gigapod/python-examples/tmp117_web_server/microdot/microdot.py"
+        ],
+        [
+            "microdot/websocket.py",
+            "github:gigapod/python-examples/tmp117_web_server/microdot/websocket.py"
+        ],
+        [
+            "../static/index.css",
+            "github:gigapod/python-examples/tmp117_web_server/static/index.css"
+        ],
+        [
+            "../static/index.html",
+            "github:gigapod/python-examples/tmp117_web_server/static/index.html"
+        ],
+        [
+            "../static/logo.png",
+            "github:gigapod/python-examples/tmp117_web_server/static/logo.png"
+        ]
     ],
     "deps": [
-      ["github:sparkfun/Qwiic_I2C_Py", "feature/packaging"],
-      ["github:sparkfun/qwiic_tmp117_py", "master"]
+        [
+            "github:gigapod/qwiic_i2c_py",
+            "feature/packaging"
+        ],
+        [
+            "github:sparkfun/qwiic_tmp117_py",
+            "master"
+        ]
     ],
-    "version": "0.0.1"
+    "version": "0.0.2"
 }

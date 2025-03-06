@@ -1,0 +1,10 @@
+{
+    "urls": [],
+    "deps": [
+        [
+            "github:gigapod/python_examples/tmp117_web_server",
+            "master"
+        ]
+    ],
+    "version": "0.0.4"
+}
