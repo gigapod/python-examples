@@ -3,7 +3,7 @@
     "deps": [
         [
             "github:gigapod/python_examples/tmp117_web_server",
-            "master"
+            "main"
         ]
     ],
     "version": "0.0.4"
